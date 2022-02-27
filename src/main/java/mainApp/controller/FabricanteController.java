@@ -69,7 +69,5 @@ public class FabricanteController {
 	public void deleteFabricante(@PathVariable(name = "codigo") int codigo) {
 		fabricanteServiceImpl.deleteFabricante(codigo);
 	}
-	
-	//hola
 
 }
